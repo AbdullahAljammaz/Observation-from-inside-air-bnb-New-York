@@ -5,5 +5,9 @@ Python analysis using calendar and listing dataset of New York
 ```
 import pandas as pd
 
-pd.read_csv('calendar.csv')
+calendar = pd.read_csv('calendar.csv')
 ```
+``` diff
+calendar.available.value_counts()
+```
+
